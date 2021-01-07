@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_grade">
+        <item>등급선택 ▼</item>
+        <item>1등급</item>
+        <item>2등급</item>
+        <item>3등급</item>
+        <item>4등급</item>
+        <item>5등급</item>
+        <item>6등급</item>
+        <item>7등급</item>
+        <item>8등급</item>
+    </string-array>
+
+    <string-array name="spinner_location">
+        <item>지역선택 ▼</item>
+        <item>서울특별시</item>
+        <item>대전광역시</item>
+        <item>광주광역시</item>
+        <item>부산광역시</item>
+        <item>인천광역시</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청남도</item>
+        <item>충청북도</item>
+        <item>전라남도</item>
+        <item>전라북도</item>
+        <item>경상남도</item>
+        <item>경상북도</item>
+    </string-array>
+
+</resources>

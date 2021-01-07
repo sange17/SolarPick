@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.App.SolarPing.GraphActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_weight="5.9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/back"
+                android:contentDescription="@string/todo" />
+            <TextView
+                android:id="@+id/province"
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/font"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"/>
+            <ImageButton
+                android:id="@+id/restart"
+                android:background="@drawable/restart"
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <!--        <TextView-->
+        <!--            android:id="@+id/empty"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_weight="0.5"-->
+        <!--            android:layout_marginTop="40dp"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:textSize="40sp" />-->
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#3a3a3a"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6.1"
+        android:background="@drawable/tabtheme"
+        android:fontFamily="@font/font"
+        app:tabIndicatorColor="#ccffcc"
+        app:tabIndicatorGravity="top"
+        app:tabSelectedTextColor="#6FED6F"
+        app:tabTextColor="@android:color/black" />
+
+
+
+</LinearLayout>

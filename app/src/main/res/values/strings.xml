@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SolarPick</string>
+    <string name="todo">TODO</string>
+    <string name="loadings">Loading...</string>
+    <string name="Extra_Subject">태양광 발전 어디가 좋을까?\n태양광 발전소 설치 시군구 단위 추천</string>
+    <string name="title">Solar - Pick</string>
+    <string name="beginningOfApp">알아보고 싶다면 여기로 Go!!</string>
+
+</resources>
