@@ -42,5 +42,5 @@ Therefore, we have created an app that recommends good places to install solar p
 
 ## 등록(Sign Up)
 * In Google Play Store
-<img src="">
+<img src="https://user-images.githubusercontent.com/73435545/105715483-0416c680-5f61-11eb-829b-6717a35d4eeb.PNG">
 [앱 다운로드 링크(App Download Link)](https://play.google.com/store/apps/details?id=com.App.SolarPing&hl=ko)
